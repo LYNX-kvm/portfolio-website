@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Poppins;
+  font-size: 16px;
+}
+div.container{
+  background-image: linear-gradient(to bottom, #d2d1f5 59%, #3333ab 41%, #ff12e3);
+  margin: auto;
+  padding: 2rem;
+  width: 500px;
+  border-radius: 30px;
+}
+ul.social-media-links{
+  display: flex;
+  list-style: none; 
+  padding-top: 1rem; 
+  width: 200px;
+  gap: 1rem
+}
+ul.personal-contact-links{
+  list-style: none;  
+  list-style: none; 
+  padding-top: 1rem; 
+  width: 200px
+}
+div.links{
+  display: flex;
+  list-style: none;
+  margin-top: 1rem;
+  color: white;
+}
+ul.personal-contact-links a{
+  color: white;
+  transition: color .4s;
+}
+ul.personal-contact-links a:hover{
+  color: #020250;
+}
+
